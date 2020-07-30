@@ -1,0 +1,6 @@
+# Dependencies used:
+1) Django - version 3.0.5
+2) Django REST framework - 3.11.0
+3) Postgres SQL
+4) Django filter
+5) Bootstrap
