@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'PeriscopeReturns.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ReturnsDataMart',
+        'NAME': '',
         'USER': 'postgres',
-        'PASSWORD': 'Lara@1558',
+        'PASSWORD': '',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
