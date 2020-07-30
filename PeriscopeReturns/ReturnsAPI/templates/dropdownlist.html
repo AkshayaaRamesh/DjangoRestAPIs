@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Plant Drop Down List </title>
+    </head>
+    <body>
+    <h1>Plant Drop Down List</h1>
+    </hr>
+    <select>
+        <option disabled="true" selected>-- select plant name--</option>
+        {% for results in Returnspredictionfeaturesmonthly%}
+        <option>{{results.location}}</option>
+        {% endfor %}
+    </select>
+    </body>
